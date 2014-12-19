@@ -1,5 +1,5 @@
-name = Purencool Slide Show
-description = Purencool Slide Show  stucture using beans
+name = Purencool basic slide show
+description = Basic slide show stucture using beans
 core = 7.x
 package = Purencool
 version = 7.x-1.0
@@ -19,4 +19,4 @@ features[field_base][] = field_basic_slide_show_url
 features[field_instance][] = bean-basic_slide_show-field_basic_slide_show_image
 features[field_instance][] = bean-basic_slide_show-field_basic_slide_show_url
 features[views_view][] = view_slide_show
-mtime = 1419023270
+mtime = 1419023786
