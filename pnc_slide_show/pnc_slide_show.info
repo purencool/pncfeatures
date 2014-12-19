@@ -1,0 +1,14 @@
+name = Purencool Slide Show
+description = Purencool Slide Show  stucture using beans
+core = 7.x
+package = Purencool
+version = 7.x-1.0
+project = pnc_slide_show
+dependencies[] = bean_admin_ui
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = image
+dependencies[] = views
+features[ctools][] = bean_admin_ui:bean:5
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
