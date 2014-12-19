@@ -32,24 +32,19 @@ function pnc_slide_show_views_default_views() {
   $handler->display->display_options['pager']['options']['items_per_page'] = '5';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
-  /* Field: Block: Slide show url */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['field_bean_slide_show_url']['id'] = 'field_bean_slide_show_url';
   $handler->display->display_options['fields']['field_bean_slide_show_url']['table'] = 'field_data_field_bean_slide_show_url';
   $handler->display->display_options['fields']['field_bean_slide_show_url']['field'] = 'field_bean_slide_show_url';
   $handler->display->display_options['fields']['field_bean_slide_show_url']['label'] = '';
   $handler->display->display_options['fields']['field_bean_slide_show_url']['exclude'] = TRUE;
   $handler->display->display_options['fields']['field_bean_slide_show_url']['element_label_colon'] = FALSE;
-  /* Field: Block: Slide show image */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['field_bean_slide_show_image']['id'] = 'field_bean_slide_show_image';
   $handler->display->display_options['fields']['field_bean_slide_show_image']['table'] = 'field_data_field_bean_slide_show_image';
   $handler->display->display_options['fields']['field_bean_slide_show_image']['field'] = 'field_bean_slide_show_image';
   $handler->display->display_options['fields']['field_bean_slide_show_image']['label'] = '';
   $handler->display->display_options['fields']['field_bean_slide_show_image']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_bean_slide_show_image']['click_sort_column'] = 'fid';
-  $handler->display->display_options['fields']['field_bean_slide_show_image']['settings'] = array(
-    'image_style' => '',
-    'image_link' => '',
-  );
   /* Field: Block: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
   $handler->display->display_options['fields']['title']['table'] = 'bean';
