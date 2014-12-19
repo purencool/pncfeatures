@@ -12,3 +12,10 @@ function slide_show_ctools_plugin_api($module = NULL, $api = NULL) {
     return array("version" => "5");
   }
 }
+
+/**
+ * Implements hook_views_api().
+ */
+function slide_show_views_api($module = NULL, $api = NULL) {
+  return array("api" => "3.0");
+}
