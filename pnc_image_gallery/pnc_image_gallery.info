@@ -1,5 +1,5 @@
-name = Pnc image gallery
-description = Pnc image gallery using beans
+name = Purencool basic page gallery
+description = Basic page gallery structure using beans
 core = 7.x
 package = Purencool
 version = 7.x-1.0

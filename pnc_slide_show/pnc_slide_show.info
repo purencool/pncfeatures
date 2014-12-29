@@ -1,5 +1,5 @@
 name = Purencool basic slide show
-description = Basic slide show stucture using beans
+description = Basic slide show structure using beans
 core = 7.x
 package = Purencool
 version = 7.x-1.0
