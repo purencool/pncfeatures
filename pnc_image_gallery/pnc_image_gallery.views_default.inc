@@ -33,8 +33,8 @@ function pnc_image_gallery_views_default_views() {
   $handler->display->display_options['style_plugin'] = 'semanticviews_default';
   $handler->display->display_options['style_options']['group']['class'] = '';
   $handler->display->display_options['style_options']['list']['element_type'] = 'ul';
+  $handler->display->display_options['style_options']['list']['class'] = 'pnc-bg';
   $handler->display->display_options['style_options']['row']['element_type'] = 'li';
-  $handler->display->display_options['style_options']['row']['class'] = '#1-gb';
   $handler->display->display_options['style_options']['row']['first_class'] = '';
   $handler->display->display_options['style_options']['row']['last_class'] = '';
   $handler->display->display_options['style_options']['row']['striping_classes'] = '';
