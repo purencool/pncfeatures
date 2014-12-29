@@ -20,4 +20,4 @@ features[field_instance][] = bean-basic_image_gallery-field_gallery_image
 features[field_instance][] = bean-basic_image_gallery-field_gallery_text
 features[views_view][] = basic_gallery_view
 features_exclude[dependencies][ctools] = ctools
-mtime = 1419817311
+mtime = 1419841367
