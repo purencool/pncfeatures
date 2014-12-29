@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Pnc image gallery feature.
+ */
+
+include_once 'pnc_image_gallery.features.inc';
