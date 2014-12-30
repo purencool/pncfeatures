@@ -120,7 +120,7 @@ function pnc_image_gallery_views_default_views() {
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
-  $handler->display->display_options['path'] = 'basic-gallery-view';
+  $handler->display->display_options['path'] = 'our-gallery';
   $export['basic_gallery_view'] = $view;
 
   return $export;
