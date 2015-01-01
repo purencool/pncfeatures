@@ -106,7 +106,7 @@ function pnc_image_gallery_views_default_views() {
   $handler->display->display_options['fields']['field_gallery_text']['field'] = 'field_gallery_text';
   $handler->display->display_options['fields']['field_gallery_text']['label'] = '';
   $handler->display->display_options['fields']['field_gallery_text']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_gallery_text']['alter']['text'] = '<div class=\'bg-group\'>[field_gallery_image_1] [title_1] [field_gallery_text]</div>';
+  $handler->display->display_options['fields']['field_gallery_text']['alter']['text'] = '<article class=\'bg-group\'>[field_gallery_image_1] [title_1] [field_gallery_text]</article>';
   $handler->display->display_options['fields']['field_gallery_text']['alter']['trim_whitespace'] = TRUE;
   $handler->display->display_options['fields']['field_gallery_text']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_gallery_text']['element_default_classes'] = FALSE;
