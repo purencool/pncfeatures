@@ -61,7 +61,7 @@ function pnc_image_gallery_views_default_views() {
   $handler->display->display_options['fields']['field_gallery_image']['element_default_classes'] = FALSE;
   $handler->display->display_options['fields']['field_gallery_image']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_gallery_image']['settings'] = array(
-    'image_style' => 'medium',
+    'image_style' => 'gallery_420x420',
     'image_link' => '',
   );
   /* Field: Block: Title */
@@ -70,7 +70,7 @@ function pnc_image_gallery_views_default_views() {
   $handler->display->display_options['fields']['title']['field'] = 'title';
   $handler->display->display_options['fields']['title']['label'] = '';
   $handler->display->display_options['fields']['title']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['title']['alter']['text'] = '<a href=\'#\' class=\'bgstitle colorbox-inline\'>[field_gallery_image]<span>[title]</span></a>
+  $handler->display->display_options['fields']['title']['alter']['text'] = '<a href=\'#\' class=\'bgstitle colorbox-inline\'>[field_gallery_image]<span class="overlay"></span><span class="title">[title]</span></a>
 ';
   $handler->display->display_options['fields']['title']['alter']['trim_whitespace'] = TRUE;
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
