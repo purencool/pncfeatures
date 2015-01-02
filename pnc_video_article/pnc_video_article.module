@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Purencool Video Article feature.
+ */
+
+include_once 'pnc_video_article.features.inc';
