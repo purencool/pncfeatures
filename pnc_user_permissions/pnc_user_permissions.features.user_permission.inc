@@ -130,6 +130,16 @@ function pnc_user_permissions_user_default_permissions() {
     'module' => 'dashboard',
   );
 
+  // Exported permission: 'access editor control panel'.
+  $permissions['access editor control panel'] = array(
+    'name' => 'access editor control panel',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'pncsitedetails',
+  );
+
   // Exported permission: 'access site in maintenance mode'.
   $permissions['access site in maintenance mode'] = array(
     'name' => 'access site in maintenance mode',
