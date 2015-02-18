@@ -280,6 +280,7 @@ function pnc_user_permissions_user_default_permissions() {
     'name' => 'administer content types',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -351,11 +352,22 @@ function pnc_user_permissions_user_default_permissions() {
     'module' => 'system',
   );
 
+  // Exported permission: 'administer newsletters'.
+  $permissions['administer newsletters'] = array(
+    'name' => 'administer newsletters',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'simplenews',
+  );
+
   // Exported permission: 'administer nodes'.
   $permissions['administer nodes'] = array(
     'name' => 'administer nodes',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -387,6 +399,26 @@ function pnc_user_permissions_user_default_permissions() {
       'editor' => 'editor',
     ),
     'module' => 'shortcut',
+  );
+
+  // Exported permission: 'administer simplenews settings'.
+  $permissions['administer simplenews settings'] = array(
+    'name' => 'administer simplenews settings',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'simplenews',
+  );
+
+  // Exported permission: 'administer simplenews subscriptions'.
+  $permissions['administer simplenews subscriptions'] = array(
+    'name' => 'administer simplenews subscriptions',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'simplenews',
   );
 
   // Exported permission: 'administer site configuration'.
@@ -480,6 +512,7 @@ function pnc_user_permissions_user_default_permissions() {
     'name' => 'bypass node access',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -633,6 +666,16 @@ function pnc_user_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'create simplenews content'.
+  $permissions['create simplenews content'] = array(
+    'name' => 'create simplenews content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: 'create url aliases'.
   $permissions['create url aliases'] = array(
     'name' => 'create url aliases',
@@ -692,6 +735,16 @@ function pnc_user_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'delete any simplenews content'.
+  $permissions['delete any simplenews content'] = array(
+    'name' => 'delete any simplenews content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: 'delete backup files'.
   $permissions['delete backup files'] = array(
     'name' => 'delete backup files',
@@ -722,6 +775,16 @@ function pnc_user_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'delete own simplenews content'.
+  $permissions['delete own simplenews content'] = array(
+    'name' => 'delete own simplenews content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: 'delete revisions'.
   $permissions['delete revisions'] = array(
     'name' => 'delete revisions',
@@ -730,6 +793,13 @@ function pnc_user_permissions_user_default_permissions() {
       'editor' => 'editor',
     ),
     'module' => 'node',
+  );
+
+  // Exported permission: 'delete terms in newsletter'.
+  $permissions['delete terms in newsletter'] = array(
+    'name' => 'delete terms in newsletter',
+    'roles' => array(),
+    'module' => 'taxonomy',
   );
 
   // Exported permission: 'delete terms in tags'.
@@ -780,6 +850,16 @@ function pnc_user_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'edit any simplenews content'.
+  $permissions['edit any simplenews content'] = array(
+    'name' => 'edit any simplenews content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: 'edit bean view mode'.
   $permissions['edit bean view mode'] = array(
     'name' => 'edit bean view mode',
@@ -817,6 +897,23 @@ function pnc_user_permissions_user_default_permissions() {
       'editor' => 'editor',
     ),
     'module' => 'node',
+  );
+
+  // Exported permission: 'edit own simplenews content'.
+  $permissions['edit own simplenews content'] = array(
+    'name' => 'edit own simplenews content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'edit terms in newsletter'.
+  $permissions['edit terms in newsletter'] = array(
+    'name' => 'edit terms in newsletter',
+    'roles' => array(),
+    'module' => 'taxonomy',
   );
 
   // Exported permission: 'edit terms in tags'.
@@ -948,6 +1045,16 @@ function pnc_user_permissions_user_default_permissions() {
     'module' => 'user',
   );
 
+  // Exported permission: 'send newsletter'.
+  $permissions['send newsletter'] = array(
+    'name' => 'send newsletter',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'simplenews',
+  );
+
   // Exported permission: 'skip comment approval'.
   $permissions['skip comment approval'] = array(
     'name' => 'skip comment approval',
@@ -956,6 +1063,17 @@ function pnc_user_permissions_user_default_permissions() {
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'comment',
+  );
+
+  // Exported permission: 'subscribe to newsletters'.
+  $permissions['subscribe to newsletters'] = array(
+    'name' => 'subscribe to newsletters',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'simplenews',
   );
 
   // Exported permission: 'switch shortcut sets'.
