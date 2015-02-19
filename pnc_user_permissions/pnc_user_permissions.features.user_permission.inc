@@ -44,6 +44,7 @@ function pnc_user_permissions_user_default_permissions() {
     'name' => 'access backup and migrate',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'backup_migrate',
   );
@@ -125,7 +126,6 @@ function pnc_user_permissions_user_default_permissions() {
     'name' => 'access dashboard',
     'roles' => array(
       'administrator' => 'administrator',
-      'editor' => 'editor',
     ),
     'module' => 'dashboard',
   );
@@ -174,6 +174,7 @@ function pnc_user_permissions_user_default_permissions() {
     'name' => 'access the block administration page',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'block_access',
   );
@@ -241,6 +242,7 @@ function pnc_user_permissions_user_default_permissions() {
     'name' => 'administer block access settings',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'block_access',
   );
@@ -361,11 +363,22 @@ function pnc_user_permissions_user_default_permissions() {
     'module' => 'system',
   );
 
+  // Exported permission: 'administer newsletters'.
+  $permissions['administer newsletters'] = array(
+    'name' => 'administer newsletters',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'newsletter',
+  );
+
   // Exported permission: 'administer nodes'.
   $permissions['administer nodes'] = array(
     'name' => 'administer nodes',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -413,7 +426,6 @@ function pnc_user_permissions_user_default_permissions() {
     'name' => 'administer software updates',
     'roles' => array(
       'administrator' => 'administrator',
-      'editor' => 'editor',
     ),
     'module' => 'system',
   );
@@ -433,7 +445,6 @@ function pnc_user_permissions_user_default_permissions() {
     'name' => 'administer themes',
     'roles' => array(
       'administrator' => 'administrator',
-      'editor' => 'editor',
     ),
     'module' => 'system',
   );
@@ -490,6 +501,7 @@ function pnc_user_permissions_user_default_permissions() {
     'name' => 'bypass node access',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -742,17 +754,13 @@ function pnc_user_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'delete terms in newsletter'.
-  $permissions['delete terms in newsletter'] = array(
-    'name' => 'delete terms in newsletter',
-    'roles' => array(),
-    'module' => 'taxonomy',
-  );
-
   // Exported permission: 'delete terms in newsletter_categories'.
   $permissions['delete terms in newsletter_categories'] = array(
     'name' => 'delete terms in newsletter_categories',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
     'module' => 'taxonomy',
   );
 
@@ -843,17 +851,13 @@ function pnc_user_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'edit terms in newsletter'.
-  $permissions['edit terms in newsletter'] = array(
-    'name' => 'edit terms in newsletter',
-    'roles' => array(),
-    'module' => 'taxonomy',
-  );
-
   // Exported permission: 'edit terms in newsletter_categories'.
   $permissions['edit terms in newsletter_categories'] = array(
     'name' => 'edit terms in newsletter_categories',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
     'module' => 'taxonomy',
   );
 
@@ -1053,6 +1057,7 @@ function pnc_user_permissions_user_default_permissions() {
     'name' => 'use text format full_html',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'filter',
   );
