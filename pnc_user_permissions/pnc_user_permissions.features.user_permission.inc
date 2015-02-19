@@ -296,6 +296,16 @@ function pnc_user_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'administer easy social'.
+  $permissions['administer easy social'] = array(
+    'name' => 'administer easy social',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'easy_social',
+  );
+
   // Exported permission: 'administer features'.
   $permissions['administer features'] = array(
     'name' => 'administer features',
@@ -332,6 +342,16 @@ function pnc_user_permissions_user_default_permissions() {
       'editor' => 'editor',
     ),
     'module' => 'menu',
+  );
+
+  // Exported permission: 'administer meta tags'.
+  $permissions['administer meta tags'] = array(
+    'name' => 'administer meta tags',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'metatag',
   );
 
   // Exported permission: 'administer mobile navigation'.
@@ -381,6 +401,16 @@ function pnc_user_permissions_user_default_permissions() {
       'editor' => 'editor',
     ),
     'module' => 'node',
+  );
+
+  // Exported permission: 'administer page titles'.
+  $permissions['administer page titles'] = array(
+    'name' => 'administer page titles',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'page_title',
   );
 
   // Exported permission: 'administer permissions'.
@@ -484,6 +514,16 @@ function pnc_user_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'views',
+  );
+
+  // Exported permission: 'administer xmlsitemap'.
+  $permissions['administer xmlsitemap'] = array(
+    'name' => 'administer xmlsitemap',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'xmlsitemap',
   );
 
   // Exported permission: 'block IP addresses'.
@@ -821,6 +861,16 @@ function pnc_user_permissions_user_default_permissions() {
     'module' => 'bean',
   );
 
+  // Exported permission: 'edit meta tags'.
+  $permissions['edit meta tags'] = array(
+    'name' => 'edit meta tags',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'metatag',
+  );
+
   // Exported permission: 'edit own article content'.
   $permissions['edit own article content'] = array(
     'name' => 'edit own article content',
@@ -990,6 +1040,16 @@ function pnc_user_permissions_user_default_permissions() {
     'module' => 'user',
   );
 
+  // Exported permission: 'set page title'.
+  $permissions['set page title'] = array(
+    'name' => 'set page title',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'page_title',
+  );
+
   // Exported permission: 'skip comment approval'.
   $permissions['skip comment approval'] = array(
     'name' => 'skip comment approval',
@@ -1039,6 +1099,16 @@ function pnc_user_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'ctools',
+  );
+
+  // Exported permission: 'use easy social wizard'.
+  $permissions['use easy social wizard'] = array(
+    'name' => 'use easy social wizard',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'easy_social',
   );
 
   // Exported permission: 'use text format filtered_html'.
