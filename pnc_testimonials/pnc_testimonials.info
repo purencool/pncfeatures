@@ -1,5 +1,5 @@
-name = Purencool testimonials content type
-description = Purencool
+name = Purencool testimonials
+description = Purencool testimonials content type
 core = 7.x
 package = Purencool
 version = 7.x-1.0
