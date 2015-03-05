@@ -1,12 +1,9 @@
-name = pnc_testimonials
+name = Purencool testimonials content type
 description = Purencool
 core = 7.x
-package = Features
+package = Purencool
 version = 7.x-1.0
 project = pnc_testimonials
 dependencies[] = features
-dependencies[] = text
 features[features_api][] = api:2
-features[field_instance][] = node-testimonials-body
-features[node][] = testimonials
 features_exclude[field_base][body] = body
