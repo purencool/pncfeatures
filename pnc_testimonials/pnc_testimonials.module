@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Code for the pnc_testimonials feature.
+ * Code for the Purencool Testimonials feature.
  */
 
 include_once 'pnc_testimonials.features.inc';

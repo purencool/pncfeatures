@@ -9,10 +9,10 @@
  */
 function pnc_testimonials_node_info() {
   $items = array(
-    'testimonials' => array(
-      'name' => t('Testimonials'),
+    'page' => array(
+      'name' => t('Testimonials page'),
       'base' => 'node_content',
-      'description' => t('Things that people have said about you or your website'),
+      'description' => t('Use <em>testimonials pages</em> for your static content, that talk about you.'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',
