@@ -30,13 +30,11 @@ function pnc_testimonials_view_views_default_views() {
   $handler->display->display_options['exposed_form']['type'] = 'basic';
   $handler->display->display_options['pager']['type'] = 'some';
   $handler->display->display_options['pager']['options']['items_per_page'] = '5';
-  $handler->display->display_options['style_plugin'] = 'default';
-  $handler->display->display_options['style_options']['default_row_class'] = FALSE;
-  $handler->display->display_options['style_options']['row_class_special'] = FALSE;
+  $handler->display->display_options['style_plugin'] = 'semanticviews_default';
   $handler->display->display_options['row_plugin'] = 'semanticviews_fields';
   $handler->display->display_options['row_options']['skip_blank'] = 1;
   $handler->display->display_options['row_options']['semantic_html'] = array(
-    'body' => array(
+    'field_testimonial_by' => array(
       'element_type' => 'div',
       'class' => 'testmon',
     ),
@@ -55,9 +53,20 @@ function pnc_testimonials_view_views_default_views() {
   $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
   $handler->display->display_options['fields']['body']['field'] = 'body';
   $handler->display->display_options['fields']['body']['label'] = '';
+  $handler->display->display_options['fields']['body']['exclude'] = TRUE;
   $handler->display->display_options['fields']['body']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['body']['alter']['text'] = '<div>[title] </div><div>[body]</div>';
+  $handler->display->display_options['fields']['body']['alter']['trim_whitespace'] = TRUE;
   $handler->display->display_options['fields']['body']['element_label_colon'] = FALSE;
+  /* Field: Content: Testimonial by */
+  $handler->display->display_options['fields']['field_testimonial_by']['id'] = 'field_testimonial_by';
+  $handler->display->display_options['fields']['field_testimonial_by']['table'] = 'field_data_field_testimonial_by';
+  $handler->display->display_options['fields']['field_testimonial_by']['field'] = 'field_testimonial_by';
+  $handler->display->display_options['fields']['field_testimonial_by']['label'] = '';
+  $handler->display->display_options['fields']['field_testimonial_by']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['field_testimonial_by']['alter']['text'] = '<div class=\'title\'>[title]</div><div class=\'body\'>[body]</div><div class=\'by\'>[field_testimonial_by]</div>';
+  $handler->display->display_options['fields']['field_testimonial_by']['alter']['trim_whitespace'] = TRUE;
+  $handler->display->display_options['fields']['field_testimonial_by']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_testimonial_by']['element_default_classes'] = FALSE;
   /* Sort criterion: Content: Title */
   $handler->display->display_options['sorts']['title']['id'] = 'title';
   $handler->display->display_options['sorts']['title']['table'] = 'node';
