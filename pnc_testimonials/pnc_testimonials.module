@@ -5,4 +5,3 @@
  */
 
 include_once 'pnc_testimonials.features.inc';
-include_once 'pnc_testimonials.setvars.inc';

@@ -21,3 +21,14 @@ function pnc_testimonials_node_info() {
   drupal_alter('node_info', $items);
   return $items;
 }
+
+
+/**
+ * Implement hook_enable()
+ */
+function pnc_testimonials_enable() {
+  variable_set('node_options_testimonials', array('status'));
+  variable_set('comment_testimonials', COMMENT_NODE_HIDDEN);
+  variable_set('node_submitted_testimonials', FALSE);
+}
+
