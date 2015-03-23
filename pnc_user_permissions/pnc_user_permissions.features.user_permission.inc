@@ -160,6 +160,15 @@ function pnc_user_permissions_user_default_permissions() {
     'module' => 'system',
   );
 
+  // Exported permission: 'access site map'.
+  $permissions['access site map'] = array(
+    'name' => 'access site map',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'site_map',
+  );
+
   // Exported permission: 'access site reports'.
   $permissions['access site reports'] = array(
     'name' => 'access site reports',
@@ -354,6 +363,15 @@ function pnc_user_permissions_user_default_permissions() {
     'module' => 'metatag',
   );
 
+  // Exported permission: 'administer metatags_quick'.
+  $permissions['administer metatags_quick'] = array(
+    'name' => 'administer metatags_quick',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'metatags_quick',
+  );
+
   // Exported permission: 'administer mobile navigation'.
   $permissions['administer mobile navigation'] = array(
     'name' => 'administer mobile navigation',
@@ -413,6 +431,15 @@ function pnc_user_permissions_user_default_permissions() {
     'module' => 'page_title',
   );
 
+  // Exported permission: 'administer pathauto'.
+  $permissions['administer pathauto'] = array(
+    'name' => 'administer pathauto',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'pathauto',
+  );
+
   // Exported permission: 'administer permissions'.
   $permissions['administer permissions'] = array(
     'name' => 'administer permissions',
@@ -420,6 +447,24 @@ function pnc_user_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'user',
+  );
+
+  // Exported permission: 'administer redirects'.
+  $permissions['administer redirects'] = array(
+    'name' => 'administer redirects',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'redirect',
+  );
+
+  // Exported permission: 'administer scheduler'.
+  $permissions['administer scheduler'] = array(
+    'name' => 'administer scheduler',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'scheduler',
   );
 
   // Exported permission: 'administer search'.
@@ -432,12 +477,20 @@ function pnc_user_permissions_user_default_permissions() {
     'module' => 'search',
   );
 
+  // Exported permission: 'administer seo'.
+  $permissions['administer seo'] = array(
+    'name' => 'administer seo',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'seo',
+  );
+
   // Exported permission: 'administer shortcuts'.
   $permissions['administer shortcuts'] = array(
     'name' => 'administer shortcuts',
     'roles' => array(
       'administrator' => 'administrator',
-      'editor' => 'editor',
     ),
     'module' => 'shortcut',
   );
@@ -449,6 +502,15 @@ function pnc_user_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'system',
+  );
+
+  // Exported permission: 'administer site verify'.
+  $permissions['administer site verify'] = array(
+    'name' => 'administer site verify',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'site_verify',
   );
 
   // Exported permission: 'administer software updates'.
@@ -720,7 +782,6 @@ function pnc_user_permissions_user_default_permissions() {
     'name' => 'customize shortcut links',
     'roles' => array(
       'administrator' => 'administrator',
-      'editor' => 'editor',
     ),
     'module' => 'shortcut',
   );
@@ -842,6 +903,15 @@ function pnc_user_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'edit any checklistapi checklist'.
+  $permissions['edit any checklistapi checklist'] = array(
+    'name' => 'edit any checklistapi checklist',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'checklistapi',
+  );
+
   // Exported permission: 'edit any page content'.
   $permissions['edit any page content'] = array(
     'name' => 'edit any page content',
@@ -869,6 +939,15 @@ function pnc_user_permissions_user_default_permissions() {
       'editor' => 'editor',
     ),
     'module' => 'metatag',
+  );
+
+  // Exported permission: 'edit metatags_quick'.
+  $permissions['edit metatags_quick'] = array(
+    'name' => 'edit metatags_quick',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'metatags_quick',
   );
 
   // Exported permission: 'edit own article content'.
@@ -899,6 +978,24 @@ function pnc_user_permissions_user_default_permissions() {
       'editor' => 'editor',
     ),
     'module' => 'node',
+  );
+
+  // Exported permission: 'edit path_based metatags_quick'.
+  $permissions['edit path_based metatags_quick'] = array(
+    'name' => 'edit path_based metatags_quick',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'metatags_quick',
+  );
+
+  // Exported permission: 'edit seo_checklist checklistapi checklist'.
+  $permissions['edit seo_checklist checklistapi checklist'] = array(
+    'name' => 'edit seo_checklist checklistapi checklist',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'checklistapi',
   );
 
   // Exported permission: 'edit terms in newsletter_categories'.
@@ -969,6 +1066,15 @@ function pnc_user_permissions_user_default_permissions() {
     'module' => 'block_access',
   );
 
+  // Exported permission: 'notify of path changes'.
+  $permissions['notify of path changes'] = array(
+    'name' => 'notify of path changes',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'pathauto',
+  );
+
   // Exported permission: 'perform backup'.
   $permissions['perform backup'] = array(
     'name' => 'perform backup',
@@ -1016,6 +1122,15 @@ function pnc_user_permissions_user_default_permissions() {
       'editor' => 'editor',
     ),
     'module' => 'node',
+  );
+
+  // Exported permission: 'schedule (un)publishing of nodes'.
+  $permissions['schedule (un)publishing of nodes'] = array(
+    'name' => 'schedule (un)publishing of nodes',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'scheduler',
   );
 
   // Exported permission: 'search content'.
@@ -1075,7 +1190,6 @@ function pnc_user_permissions_user_default_permissions() {
     'name' => 'switch shortcut sets',
     'roles' => array(
       'administrator' => 'administrator',
-      'editor' => 'editor',
     ),
     'module' => 'shortcut',
   );
@@ -1142,6 +1256,15 @@ function pnc_user_permissions_user_default_permissions() {
     'module' => 'block_access',
   );
 
+  // Exported permission: 'view any checklistapi checklist'.
+  $permissions['view any checklistapi checklist'] = array(
+    'name' => 'view any checklistapi checklist',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'checklistapi',
+  );
+
   // Exported permission: 'view bean page'.
   $permissions['view bean page'] = array(
     'name' => 'view bean page',
@@ -1158,6 +1281,15 @@ function pnc_user_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'bean',
+  );
+
+  // Exported permission: 'view checklistapi checklists report'.
+  $permissions['view checklistapi checklists report'] = array(
+    'name' => 'view checklistapi checklists report',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'checklistapi',
   );
 
   // Exported permission: 'view own unpublished content'.
@@ -1178,6 +1310,24 @@ function pnc_user_permissions_user_default_permissions() {
       'editor' => 'editor',
     ),
     'module' => 'node',
+  );
+
+  // Exported permission: 'view scheduled content'.
+  $permissions['view scheduled content'] = array(
+    'name' => 'view scheduled content',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'scheduler',
+  );
+
+  // Exported permission: 'view seo_checklist checklistapi checklist'.
+  $permissions['view seo_checklist checklistapi checklist'] = array(
+    'name' => 'view seo_checklist checklistapi checklist',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'checklistapi',
   );
 
   // Exported permission: 'view the administration theme'.
