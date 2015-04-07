@@ -3,7 +3,7 @@
  * @file
  * pnc_testimonials.features.field_instance.inc
  */
-V2b2VmECZGmna7My
+
 /**
  * Implements hook_field_default_field_instances().
  */
