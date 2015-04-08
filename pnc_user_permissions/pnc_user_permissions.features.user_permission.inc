@@ -458,6 +458,15 @@ function pnc_user_permissions_user_default_permissions() {
     'module' => 'redirect',
   );
 
+  // Exported permission: 'administer robots.txt'.
+  $permissions['administer robots.txt'] = array(
+    'name' => 'administer robots.txt',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'robotstxt',
+  );
+
   // Exported permission: 'administer scheduler'.
   $permissions['administer scheduler'] = array(
     'name' => 'administer scheduler',
@@ -880,6 +889,7 @@ function pnc_user_permissions_user_default_permissions() {
     'name' => 'disable all blocks',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'block_access',
   );
