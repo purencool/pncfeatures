@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Purencool Article View feature.
+ */
+
+include_once 'pnc_article_view.features.inc';
