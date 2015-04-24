@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Purencool styles feature.
+ */
+
+include_once 'pnc_styles.features.inc';

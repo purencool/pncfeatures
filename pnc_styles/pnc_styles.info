@@ -1,0 +1,12 @@
+name = Purencool styles
+description = Purencool basic styles once
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = pnc_styles
+dependencies[] = image
+features[features_api][] = api:2
+features[image][] = blog_width
+features[image][] = medium_rectangle
+features[image][] = small_rectangle
+features[image][] = small_square
