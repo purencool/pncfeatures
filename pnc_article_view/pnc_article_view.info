@@ -1,5 +1,5 @@
 name = Purencool article view
-description = Purencool Article View
+description = Purencool View of the articles provided by drupal
 core = 7.x
 package = Purencool
 version = 7.x-1.0
